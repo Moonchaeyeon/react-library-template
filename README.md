@@ -1,14 +1,18 @@
 # React Library Template
 This is library template with **ReactJS v18**, **storybook v7**, **Typescript**, **SCSS**, **Rollup.js**.
-
+<br/>
 
 ## Guide
 
 ### 🧩 Make Your Library Project with this template
 <img width="919" alt="image" src="https://github.com/Moonchaeyeon/react-library-template/assets/49464171/9504d55d-14ee-4ec1-9aec-84dd0343f852">
+<br/>
 
-Click `Use this template` button to create new repository using this template
+Click `Use this template` button to create new repository using this template <br/>
+<br/>
 Then clone that repository locally
+<br/>
+
 ```bash
 git clone "[github url using this template]"
 ```
@@ -17,7 +21,6 @@ git clone "[github url using this template]"
 ### ⚙️ Set Library Info
 You can change library information in `package.json`
 ```json
-// package.json
 {
 	"name": "[library name]",
 	"author": {
@@ -25,7 +28,6 @@ You can change library information in `package.json`
 		"email": "[your email]"
 	},
 	"version": "[library version]",
-	...
 }
 ```
 <br/>
@@ -39,7 +41,7 @@ yarn
 
 ### 🛍 Customize Your Library
 * working directory : `./src`
-* export your components, functions, etc. from `./src/index.ts`
+* export your components, functions, etc. from `./src/index.ts`
 <br/>
 
 

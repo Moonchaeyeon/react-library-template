@@ -1,6 +1,14 @@
 {
   "name": "@mo0on/react-library-template",
-  "version": "0.0.1",
+  "author": {
+    "name": "Chaeyeon Moon",
+    "email": "sso07069@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moonchaeyeon/react-library-template"
+  },
+  "version": "0.0.2",
   "license": "MIT",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",

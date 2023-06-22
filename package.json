@@ -8,9 +8,9 @@
     "type": "git",
     "url": "https://github.com/Moonchaeyeon/react-library-template"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
-  "main": "./dist/index.mjs",
+  "main": "index.js",
   "module": "./dist/index.mjs",
   "browser": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
@@ -58,6 +58,7 @@
   "dependencies": {
     "@types/typescript": "^2.0.0",
     "classnames": "^2.3.2",
-    "style-inject": "^0.3.0"
+    "style-inject": "^0.3.0",
+    "tslib": "^2.5.3"
   }
 }

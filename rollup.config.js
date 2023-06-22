@@ -11,7 +11,7 @@ const extensions = [ 'js', 'jsx', 'ts', 'tsx', 'mjs' ];
 
 const config = [
     {
-        external: [ /node_modules/ ],
+        external: [ /node_modules/, 'tslib' ],
         input: 'src/index.ts',
         output: [
             {
@@ -19,6 +19,10 @@ const config = [
                 format: 'cjs',
                 preserveModules: true,
                 preserveModulesRoot: 'src'
+            },
+            {
+                file: pkg.main,
+                format: 'esm'
             },
             {
                 file: pkg.module,
